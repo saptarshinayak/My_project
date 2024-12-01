@@ -1,0 +1,63 @@
+
+/* body */
+body{
+    min-width: 680px;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: 5%; 
+    z-index: -1;
+    mix-blend-mode: difference;
+    background-image: url('img/bg.jpg');
+}
+/* navbar */
+.custlogo{
+    font-size: 40px;
+    background-image: url('img/textlogo.gif');
+    background-clip: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* customer email on closed */
+.custlink{
+    text-decoration: none;
+    color: black;
+}
+/* details page buttons */
+.center{
+    width: 220px;
+    margin: auto auto;
+    text-align: center;
+}
+/* login and changepassword form */
+.tracktext{
+    width: 550px;
+    margin: auto auto;
+}
+/* reset password */
+.button2{
+    display: flex;
+    justify-content: space-between;
+}
+/* password validation in change pass */
+#check0,#check1,#check2,#check3,#check4
+{
+   color:red; 
+   font-size:18px; 
+}
+#passul{
+    list-style: none;
+    align-items: center;
+}
+
+.passhelp{
+    display: none;
+}
+#examplenewpass1:focus + .passhelp {
+    display: block;
+}

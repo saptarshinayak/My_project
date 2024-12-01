@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 138vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.962), rgba(0, 0, 0, 0.659)), url(bg-img/bghome.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation bar */
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    transition: 1s ease;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header .navitems{
+    position: relative;
+    display: flex;
+}
+
+header .navitems a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px;
+    transition: 1s ease;
+    text-transform: uppercase;
+}
+
+header .navitems a:hover{
+    font-weight: bolder;
+    color: orangered;
+}
+
+header .brand{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+header img{
+    width: 70px;
+    height: 60px;
+}
+
+/* First mid-section */
+.home{
+    width: 75%;
+    margin: auto;
+}
+.home h1{
+    color: rgb(196, 47, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-transform: uppercase;
+    font-size: 3em;
+    word-spacing: 0.127em;
+    padding-top: 40px;
+}
+.home p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    word-spacing: 0.127em;
+    padding-top: 25px;
+}
+/* book service button */
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.click button{
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    width: 20%;
+    padding: 15px;
+}
+
+.click button a{
+    text-decoration: none;    
+    color: white;
+}
+/* footer */
+footer{
+    background-color: 	rgb(24,24,24);
+    width: 100%;
+    height: 200px;
+    margin-top: 345px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer h1{
+    color: orangered;
+    font-size: 1em;
+}
+
+footer .c0 ul li{
+    color: aliceblue;
+}
+footer .c1 p{
+    color: aliceblue;
+}
+footer .c2 ul li a{
+    color: aliceblue;
+}
+footer .c2 ul li{
+    list-style: none;
+}
+footer .c2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer .c2 p{
+    color: orangered;
+}
+

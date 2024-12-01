@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: orangered;
+    width: 25%;
+    margin: auto;
+}
+.content{   
+    border: 2px solid black;
+    height: 400px;
+    width: 50%;
+    background: rgb(0,0,0,0.25);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content .btnc{
+    padding-left: 145px;
+    padding-top: 65px;
+}
+.content .numtrack{
+    padding-top: 12%;
+    padding-left: 25%;
+    margin-top: 35px;
+}
+label{
+    color: orangered;
+    font-size: x-large;
+}
+input{
+    background: transparent;
+    border: 2px solid orangered;
+    border-radius: 12px;
+    color: white;
+    height: 25px;
+    width: 200px;
+}
+/* header */
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    transition: 1s ease;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header .navitems{
+    position: relative;
+    display: flex;
+}
+
+header .navitems a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px;
+    transition: 1s ease;
+    text-transform: uppercase;
+}
+
+header .navitems a:hover{
+    font-weight: bolder;
+    color: orangered;
+}
+
+header .brand{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+header img{
+    width: 70px;
+    height: 60px;
+}
+/* body */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.962), rgba(0, 0, 0, 0.659)), url(bg-img/to.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/* button */
+.btnc button{
+    width: 29%;
+    margin: auto;
+    border: 2px solid orangered;
+    background: orangered;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1em;
+}
